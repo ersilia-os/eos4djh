@@ -1,0 +1,28 @@
+Identifier: eos4djh
+Slug: datamol-basic-descriptors
+Status: In progress
+Title: Basic molecular descriptors from Datamol
+Description: Basic molecular descriptors calculated with the Datamol package, including
+  molecular weight, lipophilicity (cLogP), hydrogen bond donnors, hydrogen bond acceptors,
+  etc. These descriptors are generally useful to annotate small molecule libraries.
+  They are not recommended for QSAR modeling since they are probably too simple for
+  most scenarios.
+Mode: Pretrained
+Task: Representation
+Input: Compound
+Input Shape: Single
+Output: Descriptor
+Output Type: Float
+Output Shape: List
+Interpretation: Basic molecular descriptors. Some descriptors are floats and some
+  are counts.
+Tag:
+- Descriptor
+Publication: https://github.com/datamol-io/datamol
+Source Code: https://docs.datamol.io/0.7.4/api/datamol.descriptors.html
+License: Apache-2.0
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4djh.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos4djh
+Docker Architecture:
+- AMD64
+- ARM64

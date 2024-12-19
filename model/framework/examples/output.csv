@@ -1,0 +1,4 @@
+mw,fsp3,n_lipinski_hba,n_lipinski_hbd,n_rings,n_hetero_atoms,n_heavy_atoms,n_rotatable_bonds,n_radical_electrons,tpsa,qed,clogp,sas,n_aliphatic_carbocycles,n_aliphatic_heterocyles,n_aliphatic_rings,n_aromatic_carbocycles,n_aromatic_heterocyles,n_aromatic_rings,n_saturated_carbocycles,n_saturated_heterocyles,n_saturated_rings
+318.11167568800005,0.0,6,4,4,6,24,3,0,97.05000000000001,0.5003390334672705,3.705000000000001,2.46489214464936,0,0,0,2,2,4,0,0,0
+489.161245972,0.15384615384615385,8,2,5,10,36,7,0,98.14,0.35967205107083006,4.910000000000003,2.7149634443049315,1,0,1,2,2,4,1,0,1
+382.18657194400004,0.5,10,2,5,10,28,2,0,117.1,0.6914404462909831,0.9673999999999997,3.0977904506455696,0,2,2,0,3,3,0,1,1
