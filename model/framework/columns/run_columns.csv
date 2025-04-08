@@ -1,23 +1,23 @@
 name,type,direction,description
-mw,float,intermediate,Molecular weight of the compound
-fsp3,float,intermediate,Fraction of sp3 hybridized carbons
-n_lipinski_hba,integer,intermediate,Number of Lipinski hydrogen bond acceptors
-n_lipinski_hbd,integer,intermediate,Number of Lipinski hydrogen bond donors
-n_rings,integer,intermediate,Number of rings in the compound
-n_hetero_atoms,integer,intermediate,Number of heteroatoms in the compound
-n_heavy_atoms,integer,intermediate,Number of heavy atoms non-hydrogen in the compound
-n_rotatable_bonds,integer,intermediate,Number of rotatable bonds in the compound
-n_radical_electrons,integer,intermediate,Number of radical electrons in the compound
-tpsa,float,intermediate,Topological polar surface area of the compound
+mw,float,high,Molecular weight of the compound
+fsp3,float,high,Fraction of sp3 hybridized carbons
+n_lipinski_hba,integer,high,Number of Lipinski hydrogen bond acceptors
+n_lipinski_hbd,integer,high,Number of Lipinski hydrogen bond donors
+n_rings,integer,high,Number of rings in the compound
+n_hetero_atoms,integer,high,Number of heteroatoms in the compound
+n_heavy_atoms,integer,high,Number of heavy atoms non-hydrogen in the compound
+n_rotatable_bonds,integer,high,Number of rotatable bonds in the compound
+n_radical_electrons,integer,high,Number of radical electrons in the compound
+tpsa,float,high,Topological polar surface area of the compound
 qed,float,high,Quantitative estimate of drug-likeness
-clogp,float,intermediate,Calculated octanol-water partition coefficient (logP)
-sas,float,low,Synthetic accessibility score of the compound
-n_aliphatic_carbocycles,integer,intermediate,Number of aliphatic carbocyclic rings
-n_aliphatic_heterocyles,integer,intermediate,Number of aliphatic heterocyclic rings
-n_aliphatic_rings,integer,intermediate,Total number of aliphatic rings
-n_aromatic_carbocycles,integer,intermediate,Number of aromatic carbocyclic rings
-n_aromatic_heterocyles,integer,intermediate,Number of aromatic heterocyclic rings
-n_aromatic_rings,integer,intermediate,Total number of aromatic rings
-n_saturated_carbocycles,integer,intermediate,Number of saturated carbocyclic rings
-n_saturated_heterocyles,integer,intermediate,Number of saturated heterocyclic rings
-n_saturated_rings,integer,intermediate,Total number of saturated rings
+clogp,float,low,Calculated octanol-water partition coefficient (logP)
+sas,float,high,Synthetic accessibility score of the compound
+n_aliphatic_carbocycles,integer,high,Number of aliphatic carbocyclic rings
+n_aliphatic_heterocyles,integer,high,Number of aliphatic heterocyclic rings
+n_aliphatic_rings,integer,high,Total number of aliphatic rings
+n_aromatic_carbocycles,integer,high,Number of aromatic carbocyclic rings
+n_aromatic_heterocyles,integer,high,Number of aromatic heterocyclic rings
+n_aromatic_rings,integer,high,Total number of aromatic rings
+n_saturated_carbocycles,integer,high,Number of saturated carbocyclic rings
+n_saturated_heterocyles,integer,high,Number of saturated heterocyclic rings
+n_saturated_rings,integer,high,Total number of saturated rings
