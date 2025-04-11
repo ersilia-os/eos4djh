@@ -1,45 +1,43 @@
-Biomedical Area:
-- Any
-Contributor: miquelduranfrigola
-Deployment:
-- Local
-Description: 'Basic molecular descriptors calculated with the Datamol package, including
+Identifier: eos4djh
+Slug: datamol-basic-descriptors
+Status: Ready
+Title: Basic molecular descriptors from Datamol
+Description: "Basic molecular descriptors calculated with the Datamol package, including
   molecular weight, lipophilicity (cLogP), hydrogen bond donnors, hydrogen bond acceptors,
   etc. These descriptors are generally useful to annotate small molecule libraries.
   They are not recommended for QSAR modeling since they are probably too simple for
-  most scenarios.
-
-  '
-Docker Architecture:
-- AMD64
-- ARM64
-DockerHub: https://hub.docker.com/r/ersiliaos/eos4djh
-Identifier: eos4djh
-Incorporation Date: '2024-11-09'
+  most scenarios.\n"
+Deployment:
+  - Local
+Source: Local
+Source Type: External
+Task: Representation
+Subtask: Featurization
 Input:
-- Compound
+  - Compound
 Input Dimension: 1
 Input Shape: Single
+Output:
+  - Value
+Output Dimension: 22
+Output Consistency: Fixed
 Interpretation: Basic molecular descriptors. Some descriptors are floats and some
   are counts.
-License: Apache-2.0
-Output:
-- Value
-Output Consistency: Fixed
-Output Dimension: 22
-Publication: https://github.com/datamol-io/datamol
+Tag:
+  - Descriptor
+Biomedical Area:
+  - Any
+Target Organism:
+  - Not Applicable
 Publication Type: Other
 Publication Year: 2024
-S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4djh.zip
-Slug: datamol-basic-descriptors
-Source: Local
+Publication: https://github.com/datamol-io/datamol
 Source Code: https://docs.datamol.io/0.7.4/api/datamol.descriptors.html
-Source Type: External
-Status: Ready
-Subtask: Featurization
-Tag:
-- Descriptor
-Target Organism:
-- Not Applicable
-Task: Representation
-Title: Basic molecular descriptors from Datamol
+License: Apache-2.0
+Contributor: miquelduranfrigola
+Incorporation Date: '2024-11-09'
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4djh.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos4djh
+Docker Architecture:
+  - AMD64
+  - ARM64
