@@ -2,11 +2,11 @@ Identifier: eos4djh
 Slug: datamol-basic-descriptors
 Status: Ready
 Title: Basic molecular descriptors from Datamol
-Description: "Basic molecular descriptors calculated with the Datamol package, including
+Description: Basic molecular descriptors calculated with the Datamol package, including
   molecular weight, lipophilicity (cLogP), hydrogen bond donnors, hydrogen bond acceptors,
   etc. These descriptors are generally useful to annotate small molecule libraries.
   They are not recommended for QSAR modeling since they are probably too simple for
-  most scenarios.\n"
+  most scenarios.
 Deployment:
   - Local
 Source: Local
