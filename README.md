@@ -52,10 +52,6 @@ _10 of 22 columns are shown_
 - **Environment Size (Mb):** `782`
 - **Image Size (Mb):** `708.92`
 
-**Computational Performance (seconds):**
-- 4 inputs: `31.87`
-- 20 inputs: `21.29`
-- 100 inputs: `21.82`
 
 ### References
 - **Source Code**: [https://docs.datamol.io/0.7.4/api/datamol.descriptors.html](https://docs.datamol.io/0.7.4/api/datamol.descriptors.html)
