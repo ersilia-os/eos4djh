@@ -41,7 +41,7 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos4djh
 Docker Architecture:
   - AMD64
   - ARM64
-Docker Pack Method: FastAPI
 Model Size: 1.0
 Environment Size: 782.0
 Image Size: 708.92
+Docker Pack Method: FastAPI
