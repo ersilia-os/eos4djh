@@ -50,8 +50,12 @@ _10 of 22 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `785`
-- **Image Size (Mb):** `708.92`
+- **Image Size (Mb):** `723.23`
 
+**Computational Performance (seconds):**
+- 10 inputs: `30.79`
+- 100 inputs: `21.09`
+- 10000 inputs: `318.44`
 
 ### References
 - **Source Code**: [https://docs.datamol.io/0.7.4/api/datamol.descriptors.html](https://docs.datamol.io/0.7.4/api/datamol.descriptors.html)
