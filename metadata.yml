@@ -43,5 +43,10 @@ Docker Architecture:
   - ARM64
 Model Size: 1.0
 Environment Size: 785.0
-Image Size: 708.92
+Image Size: 723.23
+Computational Performance 1: 30.79
+Computational Performance 2: 20.55
+Computational Performance 3: 21.09
+Computational Performance 4: 74.62
+Computational Performance 5: 318.44
 Docker Pack Method: FastAPI
