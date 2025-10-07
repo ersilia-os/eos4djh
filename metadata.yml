@@ -35,6 +35,8 @@ Source Code: https://docs.datamol.io/0.7.4/api/datamol.descriptors.html
 License: Apache-2.0
 Contributor: miquelduranfrigola
 Incorporation Date: '2024-11-09'
+Last Packaging Date: '2025-10-07'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4djh.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos4djh
 Docker Architecture:
@@ -42,11 +44,11 @@ Docker Architecture:
   - ARM64
 Model Size: 1.0
 Environment Size: 804.0
-Image Size: 723.23
-Computational Performance 1: 30.79
-Computational Performance 2: 20.55
-Computational Performance 3: 21.09
-Computational Performance 4: 74.62
-Computational Performance 5: 318.44
+Image Size: 733.27
+Computational Performance 1: 27.84
+Computational Performance 2: 17.56
+Computational Performance 3: 17.75
+Computational Performance 4: 27.63
+Computational Performance 5: 71.71
 Input Shape: Single
 Docker Pack Method: FastAPI
