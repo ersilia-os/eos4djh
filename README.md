@@ -2,8 +2,7 @@
 
 Basic molecular descriptors calculated with the Datamol package, including molecular weight, lipophilicity (cLogP), hydrogen bond donnors, hydrogen bond acceptors, etc. These descriptors are generally useful to annotate small molecule libraries. They are not recommended for QSAR modeling since they are probably too simple for most scenarios.
 
-This model was incorporated on 2024-11-09.
-
+This model was incorporated on 2024-11-09.Last packaged on 2025-10-07.
 
 ## Information
 ### Identifiers
@@ -51,12 +50,12 @@ _10 of 22 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `804`
-- **Image Size (Mb):** `723.23`
+- **Image Size (Mb):** `733.27`
 
 **Computational Performance (seconds):**
-- 10 inputs: `30.79`
-- 100 inputs: `21.09`
-- 10000 inputs: `318.44`
+- 10 inputs: `27.84`
+- 100 inputs: `17.75`
+- 10000 inputs: `71.71`
 
 ### References
 - **Source Code**: [https://docs.datamol.io/0.7.4/api/datamol.descriptors.html](https://docs.datamol.io/0.7.4/api/datamol.descriptors.html)
