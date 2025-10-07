@@ -4,6 +4,7 @@ Basic molecular descriptors calculated with the Datamol package, including molec
 
 This model was incorporated on 2024-11-09.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos4djh`
@@ -13,7 +14,7 @@ This model was incorporated on 2024-11-09.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Descriptor`
 
 ### Input
