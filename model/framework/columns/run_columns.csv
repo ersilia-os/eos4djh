@@ -10,7 +10,7 @@ n_rotatable_bonds,integer,high,Number of rotatable bonds in the compound
 n_radical_electrons,integer,high,Number of radical electrons in the compound
 tpsa,float,high,Topological polar surface area of the compound
 qed,float,high,Quantitative estimate of drug-likeness
-clogp,float,low,Calculated octanol-water partition coefficient (logP)
+clogp,float,high,Calculated octanol-water partition coefficient (logP)
 sas,float,high,Synthetic accessibility score of the compound
 n_aliphatic_carbocycles,integer,high,Number of aliphatic carbocyclic rings
 n_aliphatic_heterocyles,integer,high,Number of aliphatic heterocyclic rings
