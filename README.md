@@ -1,6 +1,6 @@
 # Basic molecular descriptors from Datamol
 
-Basic molecular descriptors calculated with the Datamol package, including molecular weight, lipophilicity (cLogP), hydrogen bond donnors, hydrogen bond acceptors, etc. These descriptors are generally useful to annotate small molecule libraries. They are not recommended for QSAR modeling since they are probably too simple for most scenarios.
+Calculates 22 everyday molecular descriptors with Datamol, covering weight, calculated lipophilicity, hydrogen bond donors and acceptors, ring and heteroatom counts, rotatable bonds, topological polar surface area, drug-likeness and a synthetic accessibility estimate. The set is deliberately small and interpretable, intended for annotating compound collections or as a cheap baseline feature vector. All values follow deterministically from the structure, so results are exact and reproducible rather than predicted.
 
 This model was incorporated on 2024-11-09.Last packaged on 2025-12-24.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2024-11-09.Last packaged on 2025-12-24.
 ### Output
 - **Output Dimension:** `22`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Basic molecular descriptors. Some descriptors are floats and some are counts.
+- **Interpretation:** 22 basic molecular descriptors combining continuous properties with structural counts.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
