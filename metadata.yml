@@ -2,13 +2,13 @@ Identifier: eos4djh
 Slug: datamol-basic-descriptors
 Status: Ready
 Title: Basic molecular descriptors from Datamol
-Description: Calculates 22 everyday molecular descriptors with Datamol, covering weight,
-  calculated lipophilicity, hydrogen bond donors and acceptors, ring and heteroatom
-  counts, rotatable bonds, topological polar surface area, drug-likeness and a synthetic
-  accessibility estimate. The set is deliberately small and interpretable, intended
-  for annotating compound collections or as a cheap baseline feature vector. All values
-  follow deterministically from the structure, so results are exact and reproducible
-  rather than predicted.
+Description: Calculates 22 everyday molecular descriptors with Datamol, covering
+  weight, calculated lipophilicity, hydrogen bond donors and acceptors, ring and
+  heteroatom counts, rotatable bonds, topological polar surface area, 
+  drug-likeness and a synthetic accessibility estimate. The set is deliberately 
+  small and interpretable, intended for annotating compound collections or as a 
+  cheap baseline feature vector. All values follow deterministically from the 
+  structure, so results are exact and reproducible rather than predicted.
 Deployment:
   - Local
 Source: Local
@@ -22,8 +22,8 @@ Output:
   - Value
 Output Dimension: 22
 Output Consistency: Fixed
-Interpretation: 22 basic molecular descriptors combining continuous properties with
-  structural counts.
+Interpretation: 22 basic molecular descriptors combining continuous properties 
+  with structural counts.
 Tag:
   - Descriptor
 Biomedical Area:
@@ -38,7 +38,7 @@ License: Apache-2.0
 Contributor: miquelduranfrigola
 Incorporation Date: '2024-11-09'
 Last Packaging Date: '2025-12-24'
-Release: v1.1.0
+Release: v1.1.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4djh.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos4djh
 Docker Architecture:
