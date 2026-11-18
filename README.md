@@ -2,7 +2,8 @@
 
 Calculates 22 everyday molecular descriptors with Datamol, covering weight, calculated lipophilicity, hydrogen bond donors and acceptors, ring and heteroatom counts, rotatable bonds, topological polar surface area, drug-likeness and a synthetic accessibility estimate. The set is deliberately small and interpretable, intended for annotating compound collections or as a cheap baseline feature vector. All values follow deterministically from the structure, so results are exact and reproducible rather than predicted.
 
-This model was incorporated on 2024-11-09.Last packaged on 2025-12-24.
+This model was incorporated on 2024-11-09.
+Last packaged on 2025-12-24.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 22 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos4djh](https://hub.docker.com/r/ersiliaos/eos4djh)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4djh.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4djh.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos4djh_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos4djh_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
